@@ -169,6 +169,45 @@ cite {
 
 /* ACTION SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
+.action-section {
+    padding: 50px 300px;
+}
+
+.action-section span {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action-box {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+.action-section a:hover {
+    text-decoration: none;
+}
+
+.action-section .btn {
+    border: #f9faf8 2px solid;
+}
+
+.action-section .btn:hover {
+    border: #f9faf8 2px solid;
+    background-color: #5796fc;
+}
+
+.action-section p {
+    color: #bed7ff;
+    margin: 5px 0 0;
+}
+
 /* FOOTER -_-_-_-_-_-_-_-_-_-_-_ */
 
 .footer {
