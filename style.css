@@ -24,7 +24,7 @@ h2 {
 }
 
 a {
-    color: #e5e7eb;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ a:hover {
 }
 
 .btn {
-  background-color: #3882f6; 
+  background-color: #825298; 
   color: #e5e7eb;
   font-size: 16px;
   font-weight: 600; 
@@ -44,14 +44,14 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #5796fc;
+    background-color: #9d6fb3;
 }
 
 
 /* HEADER -_-_-_-_-_-_-_-_-_-_-_ */
 
 .header {
-    background-color: #1f2937;
+    background-color: #a470c0;
     height: 72px;
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,22 @@ a:hover {
 /* HERO SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
 .hero-section {
-    background-color: #1f2937;
+    background-image: linear-gradient(
+    70deg,
+    hsl(269deg 51% 71%) 0%,
+    hsl(274deg 52% 71%) 8%,
+    hsl(278deg 52% 71%) 17%,
+    hsl(283deg 52% 71%) 25%,
+    hsl(287deg 52% 71%) 33%,
+    hsl(292deg 52% 71%) 42%,
+    hsl(297deg 52% 71%) 50%,
+    hsl(302deg 53% 71%) 58%,
+    hsl(306deg 59% 72%) 67%,
+    hsl(310deg 66% 73%) 75%,
+    hsl(314deg 73% 74%) 83%,
+    hsl(317deg 81% 75%) 92%,
+    hsl(320deg 89% 76%) 100%
+  );
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
@@ -96,7 +111,7 @@ a:hover {
 }
 
 .hero-right {
-    background-color: #6D747D;
+    background-color: #fbafe9;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -140,7 +155,7 @@ a:hover {
 .frame {
     width: 160px;
     height: 160px;
-    border: #3882f6 5px solid;
+    border: #f38cd6 5px solid;
     border-radius: 20px;
     margin: 0 auto;
 }
@@ -182,14 +197,14 @@ cite {
 }
 
 .action-section span {
-    color: #f9faf8;
+    color: #6e468d;
     font-size: 24px;
     font-weight: 900;
 }
 
 .action-box {
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: #fbafe9;
+    color: #6e468d;
     display: flex;
     padding: 50px 150px;
     justify-content: space-between;
@@ -208,20 +223,20 @@ cite {
 
 .action-section .btn:hover {
     border: #f9faf8 2px solid;
-    background-color: #5796fc;
+    background-color: #9d6fb3;
 }
 
 .action-section p {
-    color: #bed7ff;
+    color: #ffeffa;
     margin: 5px 0 0;
 }
 
 /* FOOTER -_-_-_-_-_-_-_-_-_-_-_ */
 
 .footer {
-    background-color: #1f2937;
+    background-color: #31283b;
     height: 90px;
-    color: #8c99aa;
+    color: #766a84;
     display: flex;
     justify-content: center;
     align-items: center;
