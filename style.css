@@ -4,31 +4,99 @@
     font-family: "Roboto", sans-serif;
 }
 
-button {
-  background-color: #3882f6;  
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
 }
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+  background-color: #3882f6; 
+  color: #e5e7eb;
+  font-size: 16px;
+  font-weight: 600; 
+  border-radius: 8px;
+  padding: 7px 10px;
+  width: 100px;
+  text-align: center;
+}
+
 
 /* HEADER -_-_-_-_-_-_-_-_-_-_-_ */
 
 .header {
     background-color: #1f2937;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 350px;
+    /* border-bottom: 1px solid #e5e7eb; bordure temporaire */
 }
 
 .header .title{
     font-size: 28px;
     font-weight: 900;
-    color: #e5e7eb;
+    color: #ffffff;
 }
+
+.header ul {
+    color: #e5e7eb;
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    gap: 25px;
+}
+
+/* HERO SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
 .hero-section {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 350px;
+    gap: 60px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    background-color: #6D747D;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right span {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .hero-section h1 {
@@ -38,11 +106,18 @@ h2 {
 
 .hero-section p {
     font-size: 18px;
+    font-weight: 300;
 }
 
-.hero-section span {
-    font-size: 24px;
+/* CAROUSEL -_-_-_-_-_-_-_-_-_-_-_ */
+
+.carousel {
+
 }
+
+
+
+/* QUOTE SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
 .quote-section {
     background-color: #e5e7eb;
@@ -50,6 +125,13 @@ h2 {
     font-weight: 300;
 }
 
+/* ACTION SECTION -_-_-_-_-_-_-_-_-_-_-_ */
+
+/* FOOTER -_-_-_-_-_-_-_-_-_-_-_ */
+
+.footer {
+    background-color: #1f2937;
+}
 
 
 
