@@ -141,14 +141,30 @@ a:hover {
     color: #6D747D;
 }
 
-
-
 /* QUOTE SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
 .quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: 300;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    color: #51555a;
+    font-style: italic;
+    padding: 0 50px;
+}
+
+cite {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    color: #1f2937;
+    align-self: flex-end;
+    padding-right: 110px;
 }
 
 /* ACTION SECTION -_-_-_-_-_-_-_-_-_-_-_ */
