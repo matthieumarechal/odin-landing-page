@@ -170,7 +170,7 @@ cite {
 /* ACTION SECTION -_-_-_-_-_-_-_-_-_-_-_ */
 
 .action-section {
-    padding: 50px 300px;
+    padding: 100px 300px;
 }
 
 .action-section span {
@@ -212,6 +212,11 @@ cite {
 
 .footer {
     background-color: #1f2937;
+    height: 90px;
+    color: #8c99aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
